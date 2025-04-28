@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  background-color: #F8EDE3;
+}
+
+.navbar {
+  background-color: #BDD2B6;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  color: #798777;
+  font-weight: bold;
+}
+
+#gallery-link {
+  position: relative;
+  right: 30%;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+} 
+
+#gallery-link::after {
+  position: absolute; 
+  content: "";
+  background-color: #ffffff; /*下線の色*/
+  width: 140px;
+  height: 4px; 
+  bottom: -16px; /*線のタテ位置*/
+  left: 50%;  /*線のヨコ位置*/
+  transform: translateX(-50%); /*線のヨコ位置*/
+}
+
+#gallery-link:hover {
+  color: #798777;
+}
+
+#gallery-link:hover::after {
+  background-color: #798777;
+}
+
+main {
+  background-color: #ffffff;
+  /* fixed-topを使うとmainが裏に隠れるため、margin-topで高さ分の余白を追加 */
+   margin-top: 57px;
+}
+
+#explanation {
+  background-color: #BDD2B6;
+  width: 85%;
+  margin: 25px auto 0;
+  border-radius: 50px;
+  padding: 1px 40px;
+}
+
+#explanation h2 {
+  color: #4d4d4d;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#explanation p {
+  color: #4d4d4d;
+  font-size: 12px;
+  margin-left: 30px;
+  line-height: 2;
+}
+
+#discriminator {
+  background-color: #F8EDE3;
+  width: 73%;
+  margin: 10px auto 25px;
+  border-radius: 40px;
+}
+
+#discriminator h3 {
+  font-size: 20px;
+  color: #798777;
+  padding-top: 10px;
+}
+
+#discriminator > p {
+  color: #4d4d4d;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+#button {
+  color: #ffffff;
+  background-color: #BDD2B6;
+  border-radius: 10px;
+  border-width: thin;
+  width: 40%;
+}
+
+#discriminator p:nth-of-type(2) {
+  color: #4d4d4d; 
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#result {
+  margin: 0 8px;
+  color: #798777;
+}
+
+footer {
+  background-color: #BDD2B6;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+#address {
+  margin-right: 10px;
+  position: relative;
+  top: 12px;
+  font-size: 10px;
+}
+
+#email {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  font-size: 12px;
+}
+
+#email:hover {
+  color: #798777;
+}
+
+#copyright {
+  font-size: 12px;
+}
