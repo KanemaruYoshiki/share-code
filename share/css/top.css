@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  background-color: #F8EDE3;
+}
+
+header {
+  min-height: 50px;
+}
+
+.navbar {
+  background-color: #BDD2B6;
+  position: relative;
+  height: 50px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  color: #798777;
+  font-weight: bold;
+}
+
+#gallery-button { 
+  color: #ffffff;           
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 15px;
+  border-bottom: 4px solid #ffffff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  right: 30%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  line-height: 50px;
+}
+
+#gallery-button:hover {
+  background-color: #798777;
+}
+
+/* #gallery-link {
+  position: relative;
+  right: 30%;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+} 
+
+#gallery-link::after {
+  position: absolute; 
+  content: "";
+  background-color: #ffffff; 
+  width: 140px;
+  height: 4px; 
+  bottom: -16px; 
+  left: 50%;  
+  transform: translateX(-50%); 
+}
+
+#gallery-link:hover {
+  color: #798777;
+}
+
+#gallery-link:hover::after {
+  background-color: #798777;
+} */
+
+main {
+  background-color: #ffffff;
+}
+
+#explanation {
+  background-color: #BDD2B6;
+  width: 85%;
+  margin: 25px auto 0;
+  border-radius: 75px;
+  padding: 1px 50px 1px 40px;
+}
+
+#explanation h2 {
+  color: #4d4d4d;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 30px;
+  position: relative;
+  right: 6px;
+}
+
+#explanation p {
+  color: #4d4d4d;
+  font-size: 12px;
+  margin-left: 30px;
+  line-height: 2;
+  position: relative;
+  right: 6px;
+}
+
+#discriminator {
+  background-color: #F8EDE3;
+  width: 73%;
+  margin: 10px auto 25px;
+  border-radius: 40px;
+}
+
+#discriminator h3 {
+  font-size: 20px;
+  color: #798777;
+  padding-top: 10px;
+}
+
+#discriminator > p {
+  color: #4d4d4d;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+#button {
+  color: #ffffff;
+  background-color: #BDD2B6;
+  border-radius: 10px;
+  border-width: thin;
+  width: 40%;
+}
+
+#discriminator p:nth-of-type(2) {
+  color: #4d4d4d; 
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#result {
+  margin: 0 8px;
+  color: #798777;
+}
+
+footer {
+  background-color: #BDD2B6;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+#address {
+  color: #4d4d4d;
+  margin-right: 10px;
+  position: relative;
+  top: 12px;
+  font-size: 10px;
+}
+
+#email {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  font-size: 12px;
+}
+
+#email:hover {
+  color: #798777;
+}
+
+#copyright {
+  color: #4d4d4d;
+  font-size: 12px;
+}
