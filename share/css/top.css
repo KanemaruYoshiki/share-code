@@ -1,14 +1,14 @@
 html {
   box-sizing: border-box;
 }
-
+/* ボディ */
 body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
   background-color: #F8EDE3;
   width: 100vw;
   min-height: 100vh;
 }
-
+/* ヘッダー */
 .navbar {
   background-color: #BDD2B6;
   position: relative;
@@ -39,7 +39,7 @@ body {
   color: #798777;
   border-bottom-color: #798777;
 }
-
+/* メイン */
 main {
   background-color: #ffffff;
 }
@@ -132,6 +132,7 @@ main {
   color: #798777;
 }
 
+/* フッター */
 footer {
   background-color: #BDD2B6;
   height: 80px;
